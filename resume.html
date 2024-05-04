@@ -1,0 +1,27 @@
+<!-- resume.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Applicant Details</h1>
+    <div class="filter-container">
+      <label for="jobFilter">Filter by job:</label>
+      <input type="text" id="jobFilter" placeholder="Enter job title...">
+    </div>
+    <div id="resumeContainer" class="resume-container"></div>
+    <div id="errorContainer" class="error-container"></div>
+    <div class="button-container">
+      <button id="prevButton" class="nav-button">Previous</button>
+      <button id="nextButton" class="nav-button">Next</button>
+    </div>
+  </div>
+  <script src="resume.js"></script>
+</body>
+</html>
